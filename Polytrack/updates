@@ -1,0 +1,1684 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+	<head>
+		<title>Updates and news - Kodub</title>
+		<meta name="description" content="Changelogs, updates and news about my projects.">
+
+		<link rel="preload" href="/fonts/generic_mobile_system.ttf" as="font" crossorigin><link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon/favicon-48x48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon/favicon-192x192.png">
+
+<link rel="apple-touch-icon" type="image/png" sizes="167x167" href="/favicon/favicon-167x167.png">
+<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/favicon/favicon-180x180.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta property="og:title" content="Updates and news">
+		<meta property="og:description" content="Changelogs, updates and news about my projects.">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://www.kodub.com/updates">
+		<meta property="og:image" content="https://www.kodub.com/logo.png">
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@KodubDev">
+
+		<link rel="stylesheet" type="text/css" href="/css/theme.css">
+		<link rel="stylesheet" type="text/css" href="/css/articles.css">
+	</head>
+
+	<body>
+		<header>
+	<div class="left"><a id="logo" href="/"><span>kodub;</span></a><a id="logo-small" href="/"><span>k;</span></a></div>
+	<nav><a class="underline-button" href="/">Projects</a><a class="underline-button" href="/updates">Updates</a><a class="underline-button" href="/contact">Contact</a></nav>
+</header>
+		
+		<main id="articles">
+			<article><section><h1>PolyTrack 0.6.3 - Track of the Week</h1>
+<time>2026-09-16</time>
+<a href="/updates/media/2026-09-16.jpg"><img loading="lazy" src="/updates/media/2026-09-16.jpg" alt="Screenshot of PolyTrack"></a>
+<p>This update is compatible with 0.6.0, 0.6.1 and 0.6.2, so updating is optional, but recommended to access the newest features and fixes.</p>
+<ul>
+	<li>Added: Track of the Week</li>
+	<li>Added: New Community Tracks</li>
+	<ul>
+		<li>La Infinita</li>
+		<li>Oyasumi</li>
+		<li>Zenith</li>
+		<li>Wintertide</li>
+		<li>The CrossFades</li>
+		<li>Out of Bounds</li>
+		<li>Solaris</li>
+		<li>Evanescent Bliss</li>
+		<li>Atlantis</li>
+		<li>Tucks Factory</li>
+	</ul>
+	<li>Added: Tutorial for new players</li>
+	<li>Added: Community Tracks are now grouped into tabs by version</li>
+	<li>Added: Spectator camera move up/down using Z/C keys</li>
+	<li>Added: Links to Google Play &amp; Reddit</li>
+	<li>Added: Hover over the time in the leaderboard to see the exact time a record was set</li>
+	<li>Added: Icon for MacOS Desktop app</li>
+	<li>Added: Longer screen timeout on mobile while playing</li>
+	<br>
+	<li>Changed: Timestamps in the leaderboard are now shown as relative time (e.g. "2 days ago")</li>
+	<li>Changed: Reset hint design</li>
+	<li>Changed: Arrow key binds are now rendered as arrows instead of text</li>
+	<li>Changed: Terms of Service &amp; Privacy Policy has been combined into one button</li>
+	<li>Changed: New hint text after finishing a track</li>
+	<br>
+	<li>Fixed: Horizontal scrollbar in garage due to a Firefox bug</li>
+	<br>
+	<li>Removed: Community Track "Asguardia"</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2026-09-16/polytrack-0.6.3" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>PolyTrack 0.6.2 - Bug fixes</h1>
+<time>2026-05-31</time>
+<a href="/updates/media/2026-05-31.jpg"><img loading="lazy" src="/updates/media/2026-05-31.jpg" alt="Screenshot of PolyTrack"></a>
+<p>This update is compatible with 0.6.0 and 0.6.1, so updating is optional but recommended.</p>
+<ul>
+	<li>Changed: Community Track Natsu has been changed to remove the hidden finish line. Note that this means that the leaderboard for this track has been reset.</li>
+	<li>Changed: Error screen replaced "Reload" button with a "Quit" button for the desktop versions of the game</li>
+	<br>
+	<li>Fixed: Editor camera could not be lowered as far as it should</li>
+	<li>Fixed: Touch controls were not properly hidden during loading screens</li>
+	<li>Fixed: Very rare error if car input was sent before the physics simulation was fully initialized</li>
+	<li>Fixed: The image for the news popup was unnecessarily preloaded even when not opened</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2026-05-31/polytrack-0.6.2" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>PolyTrack 0.6.1 - New community tracks</h1>
+<time>2026-05-26</time>
+<a href="/updates/media/2026-05-26.jpg"><img loading="lazy" src="/updates/media/2026-05-26.jpg" alt="Screenshot of PolyTrack"></a>
+<p>This update is compatible with 0.6.0, so updating is optional but recommended.</p>
+<ul>
+	<li>Added: The date a record was set is now visible in the leaderboard</li>
+	<li>Added: In multiplayer, clients are now also able to create invites in addition to the host</li>
+	<li>Added: Delete button for tracks in the leaderboard screen</li>
+	<li>Added: The language of the game is now automatically detected from your browser settings</li>
+	<li>Added: When playing logged in on CrazyGames or Poki, your nickname will be set automatically</li>
+	<li>Added: The first time the game is launched, Summer 1 will be started automatically</li>
+	<li>Added: Error screen reload game button</li>
+	<li>Added: Error screen reset settings button</li>
+	<li>Added: 10 new community tracks</li>
+	<ul>
+		<li>Apostle</li>
+		<li>Stardust</li>
+		<li>Overclocked</li>
+		<li>Amberbound</li>
+		<li>The Eldritch Estate</li>
+		<li>Star Bound</li>
+		<li>Natsu</li>
+		<li>Lenore</li>
+		<li>Sandy lanes II</li>
+		<li>Planet 97</li>
+	</ul>
+	<br>
+	<li>Changed: Moved multiplayer experimental warning</li>
+	<li>Changed: The speedometer is now frozen after finishing a track to make it easier to see the final speed</li>
+	<li>Changed: Profile settings are now always shown when saving the car in the garage</li>
+	<li>Changed: New icon for delete track button in track selection</li>
+	<li>Changed: CMD-Z can now also be used on Mac in addition to CTRL-Z</li>
+	<li>Changed: Android app now allows rotating between landscape and reverse landscape</li>
+	<br>
+	<li>Optimized: Lag spikes when editing large tracks in the editor</li>
+	<li>Optimized: All official tracks are no longer preloaded when the game starts</li>
+	<br>
+	<li>Fixed: It was still possible to paste parts during testing in the editor</li>
+	<li>Fixed: Speed was shown as negative while reversing in the graphs window</li>
+	<li>Fixed: Loading would get stuck without an error message when some resources failed to load</li>
+	<li>Fixed: Z-fighting with multiple players waiting at the starting point in multiplayer</li>
+	<li>Fixed: Overlapping windows in multiplayer when a message box would open</li>
+	<li>Fixed: Music returns for a short while after playing an ad</li>
+	<li>Fixed: Host disconnecting from matchmaking server when modded client fails to join</li>
+	<li>Fixed: Improved reliability of connections with the multiplayer matchmaking server</li>
+	<li>Fixed: Translations</li>
+	<br>
+	<li>Removed: Community Track "Dinruth" per request of the author</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2026-05-26/polytrack-0.6.1" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>PolyTrack 0.6.0 - Multiplayer &amp; Car Customization</h1>
+<time>2026-03-10</time>
+<a href="/updates/media/2026-03-10.jpg"><img loading="lazy" src="/updates/media/2026-03-10.jpg" alt="Screenshot of PolyTrack"></a>
+<p>PolyTrack 0.6.0 is new major update which introduces experimental multiplayer support, more car customization, editor copy/paste, optimizations and more!</p>
+<ul>
+	<li>Added: Experimental Multiplayer</li>
+	<li>Added: New customization options for the car</li>
+	<ul>
+		<li>New paint patterns</li>
+		<li>New wheel rims</li>
+		<li>New exhaust pipes</li>
+	</ul>
+	<li>Added: New garage environment for the customization screen</li>
+	<a href="/updates/media/2026-03-10_2.jpg"><img loading="lazy" src="/updates/media/2026-03-10_2.jpg" alt="Screenshot of PolyTrack"></a>
+	<li>Added: Cars for other profiles are now also visible in the garage</li>
+	<li>Added: Car randomization button</li>
+	<li>Added: Two new official tracks</li>
+	<ul>
+		<li>Winter 5</li>
+		<a href="/updates/media/2026-03-10_3.jpg"><img loading="lazy" src="/updates/media/2026-03-10_3.jpg" alt="Screenshot of PolyTrack"></a>
+		<li>Desert 5</li>
+		<a href="/updates/media/2026-03-10_4.jpg"><img loading="lazy" src="/updates/media/2026-03-10_4.jpg" alt="Screenshot of PolyTrack"></a>
+	</ul>
+	<li>Added: 20 new community tracks</li>
+	<ul>
+		<li>Marvelous Marble</li>
+		<li>Arx Lucida</li>
+		<li>Koselig</li>
+		<li>Sky Bound</li>
+		<li>ShardMir</li>
+		<li>Steinwallburg</li>
+		<li>Paradise Palace</li>
+		<li>Sunken Glyphs</li>
+		<li>Grimspyre</li>
+		<li>Magenta Mines</li>
+		<li>Cruising Altitude</li>
+		<li>Termite Terror</li>
+		<li>4 seasons</li>
+		<li>Lost at sea</li>
+		<li>Frosted Fjords</li>
+		<li>Levitation</li>
+		<li>Frozen Ramparts</li>
+		<li>Tangled Cliffs</li>
+		<li>Dinruth</li>
+		<li>Sludge Pipe Circuit</li>
+	</ul>
+	<li>Added: Editor cut/copy/paste options</li>
+	<li>Added: The option to select a country flag to be shown in the leaderboard together with your nickname</li>
+	<li>Added: Advanced graph window for showing detailed information while watching a replay</li>
+	<a href="/updates/media/2026-03-10_5.jpg"><img loading="lazy" src="/updates/media/2026-03-10_5.jpg" alt="Screenshot of PolyTrack"></a>
+	<li>Added: Single frame stepping buttons while watching a replay</li>
+	<li>Added: Checkpoint counter while watching a replay</li>
+	<li>Added: New track parts</li>
+	<ul>
+		<li>Pillars with sloped tops have been separated from other track parts so they can be placed individually</li>
+		<li>Banked curves</li>
+		<li>Straight banked road</li>
+		<li>Flat to banked road transitions</li>
+		<li>Y-intersection</li>
+		<li>Long Y-intersection</li>
+		<li>Longer S-curves</li>
+		<li>Road slope to vertical transition</li>
+		<li>Wide road slope to vertical transition</li>
+		<li>Planes for sloped triangles</li>
+		<li>Blocks for sloped triangles</li>
+		<li>Wall slopes</li>
+		<li>Block outer corner</li>
+		<li>Plane corner</li>
+	</ul>
+	<li>Added: New version popup</li>
+	<li>Added: The current leaderboard position will now be shown in the top left while playing (not on mobile for now)</li>
+	<li>Added: New personal best sound effect</li>
+	<li>Added: Multiple concatenated track codes can now be imported at once</li>
+	<li>Added: Hold shift to skip the confirmation dialog when deleting tracks</li>
+	<li>Added: Next track button for official tracks</li>
+	<li>Added: Track info now shows last modified date</li>
+	<li>Added: The game is now available for more architectures</li>
+	<ul>
+		<li>ARM versions for Windows, Linux &amp; MacOs</li>
+		<li>32-bit version for Windows</li>
+	</ul>
+	<li>Added: The speed difference is now also shown at the finish line</li>
+	<li>Added: Toggle music button in the menu</li>
+	<li>Added: CTRL-SHIFT-Z can now also be used to redo changes in the editor</li>
+	<li>Added: Graphics option for disabling fog</li>
+	<li>Added: Graphics option for whether the game should take into account the screen pixel density</li>
+	<li>Added: Setting to disable ghost car sound effects</li>
+	<li>Added: Master volume setting</li>
+	<li>Added: "polytrackModConfiguration" object for configurating mods &amp; unblocked versions of the game</li>
+	<li>Added: Terms of Service</li>
+	<li>Added: Error screen close button</li>
+	<br>
+	<li>Changed: Updated official tracks</li>
+	<ul>
+		<li>Summer 1: Fixed a small hole</li>
+		<li>Summer 2: Downwards slope now uses smooth wall slopes</li>
+		<li>Summer 3: Made track slightly longer to make more room for a checkpoint</li>
+		<li>Summer 4: Longer stretches before and after drops</li>
+		<li>Summer 5: Changed starting position</li>
+		<li>Summer 6: Changed sideways drop to a slope. Longer jump and new longer s-curves.</li>
+		<li>Summer 7: <i>No changes</i></li>
+		<li>Winter 1: Longer turns to improve the racing line</li>
+		<li>Winter 2: Fixed starting ramp thickness</li>
+		<li>Winter 3: Fixed skip in tunnel</li>
+		<li>Winter 4: Added a small wall by the first wall ride</li>
+		<li>Desert 1: Small cosmetic changes</li>
+		<li>Desert 2: Small cosmetic changes</li>
+		<li>Desert 3: <i>No changes</i></li>
+		<li>Desert 4: <i>No changes</i></li>
+	</ul>
+	<li>Changed: Small updates &amp; fixes for community tracks from previous versions</li>
+	<li>Changed: Blurred background in menu</li>
+	<li>Changed: Renamed "Customization" to "Garage"</li>
+	<li>Changed: When the speed difference at a checkpoint is less than 1 km/h decimals are now shown, for example "0.5 km/h"</li>
+	<li>Changed: Community tracks are now in groups depending on in which version they were released</li>
+	<li>Changed: The community tracks released with 0.5.0 are now sorted by the poll results instead of alphabetically</li>
+	<li>Changed: Custom tracks are no longer sorted by environment (Summer, Winter, Desert)</li>
+	<li>Changed: Profile settings has been moved to the garage screen</li>
+	<li>Changed: Disabled music in garage</li>
+	<li>Changed: Stronger server side profanity filter for leaderboard nicknames</li>
+	<li>Changed: Thousand separator for leaderboard positions to make them easier to read</li>
+	<li>Changed: New style for reset hint</li>
+	<li>Changed: New style for personal best</li>
+	<li>Changed: When watching a replay the time bar is now at the bottom instead of at the top</li>
+	<li>Changed: The maximum zoom distance in the editor has been increased from 600m to 3000m</li>
+	<li>Changed: Editor pressing delete only deletes parts identical to the selected part first</li>
+	<li>Changed: The language is now updated immediately on change in the settings menu</li>
+	<li>Changed: New style for message boxes</li>
+	<li>Changed: Removed render scale option over 100% and added new 10% and 75% options instead</li>
+	<li>Changed: The spectator camera can now be used after finishing a track again</li>
+	<li>Changed: Left &amp; right inputs now cancel out instead of preferring steering to the left</li>
+	<li>Changed: Keybindings for the spectator and FPS counter have been reset because those keybinds are now used for frame stepping</li>
+	<br>
+	<li>Optimized: Large optimization by rewriting the majority of the physics simulation in C++</li>
+	<li>Optimized: Community tracks are now loaded when played rather than when the game starts</li>
+	<li>Optimized: Smaller track codes by combining rotation &amp; rotationAxis into a single byte</li>
+	<li>Optimized: Communicating the car state between the physics simulation and the game has been made more efficient and less memory intensive</li>
+	<li>Optimized: Information about the car's collision box is only sent to the physics simulation once instead of at every reset</li>
+	<li>Optimized: The car model is now compressed resulting in a smaller file size</li>
+	<li>Optimized: Code for the editor &amp; garage is now loaded on demand resulting in quicker initial loading times</li>
+	<li>Optimized: More efficient caching of Track IDs</li>
+	<br>
+	<li>Fixed: Attempt at fixing landing bugs by disabling acceleration for a short time to give both back wheels time to make contact</li>
+	<li>Fixed: Speed difference at checkpoints would be incorrect while reversing</li>
+	<li>Fixed: Incorrect FOV when shadow quality was set to medium or higher</li>
+	<li>Fixed: Records for deleted tracks were not cleaned up correctly</li>
+	<li>Fixed: Small gaps between wall rides and vertical slopes</li>
+	<li>Fixed: Model for wall ride inner corner</li>
+	<li>Fixed: Mobile touch controls were not taking into account safe zones correctly</li>
+	<li>Fixed: Track settings UI shifting when environment icons loaded</li>
+	<li>Fixed: Incorrect camera position for a single frame when track loads</li>
+	<li>Fixed: Settings menu not resetting correctly when closing with escape key</li>
+	<li>Fixed: Share track screen escape key closes track as well</li>
+	<li>Fixed: A small gap between the track name and top bar in the editor on some resolutions</li>
+	<li>Fixed: Position tick sound effect ignoring sound effect setting</li>
+	<li>Fixed: Off-center view if the game resolution exceeds the maximum texture size of the device</li>
+	<li>Fixed: The same track could have different Track IDs depending on the order the track parts were created</li>
+	<li>Fixed: Disabled some UI interactions during transitions which could cause issues</li>
+	<li>Fixed: Pressing escape after an error while importing a track would close the import window as well</li>
+	<li>Fixed: Desktop version of the game could not be closed if the editor had unsaved changes</li>
+	<li>Fixed: Privacy policy button was missing on some platforms</li>
+	<li>Fixed: Very rare crash when failing to create car texture</li>
+	<li>Fixed: Crash when network requests fail in some browsers</li>
+	<li>Fixed: Very rare "clz32 no deterministic implementation" error</li>
+	<li>Fixed: Small memory leak from not disposing DRACOLoaders correctly</li>
+	<li>Fixed: Very rare error in garage</li>
+	<li>Fixed: Error screen covered by game toolbar in some cases</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2026-03-10/polytrack-0.6.0" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>PolyTrack 0.5.2 - New community tracks</h1>
+<time>2025-11-05</time>
+<a href="/updates/media/2025-11-05.jpg"><img loading="lazy" src="/updates/media/2025-11-05.jpg" alt="Screenshot of PolyTrack"></a>
+<p>This update is compatible with 0.5.0 and 0.5.1, so updating is optional but recommended.</p>
+<ul>
+	<li>Added: Show leaderboard position when getting a new personal best</li>
+	<li>Added: Software rendering warning</li>
+	<li>Added: New community tracks</li>
+	<ul>
+		<li>Zealot</li>
+		<li>Shrouded Oasis</li>
+		<li>Cogware</li>
+		<li>Land of the Rising Sun</li>
+		<li>Midas Metropolis</li>
+		<li>Frozen In Time</li>
+		<li>Winterfell</li>
+		<li>Launch Control</li>
+		<li>Fractured Shore</li>
+		<li>Starry Tropics</li>
+	</ul>
+	<br>
+	<li>Fixed: "Car saved" &amp; "Track saved" notifications not taking into account safe zones in app</li>
+	<li>Fixed: Invalid replays when there was an input change on the very last frame</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2025-11-05/polytrack-0.5.2" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>PolyTrack 0.5.1 - Shadows &amp; Editor undo</h1>
+<time>2025-07-16</time>
+<a href="/updates/media/2025-07-16.jpg"><img loading="lazy" src="/updates/media/2025-07-16.jpg" alt="Screenshot of PolyTrack"></a>
+<p>This update is compatible with 0.5.0, so updating is optional but recommended.</p>
+<ul>
+	<li>Added: New shadow system using cascaded shadow maps</li>
+	<li>Added: Editor undo/redo</li>
+	<li>Added: Speed difference is now also shown at checkpoints</li>
+	<li>Added: New community tracks</li>
+	<ul>
+		<li>Anubis</li>
+		<li>Asguardia</li>
+		<li>Flying Dreams</li>
+		<li>Ghost City</li>
+		<li>Joenail Jones</li>
+		<li>MOS ESPA</li>
+		<li>Natsujō</li>
+	</ul>
+	<li>Added: Mobile camera view button</li>
+	<li>Added: Yellow lines at checkpoints in the time bar while watching replays</li>
+	<li>Added: The leaderboard now shows the total players for each track</li>
+	<li>Added: Search tracks by author name</li>
+	<li>Added: Mobile UI shows checkpoint flag if respawn at checkpoint is available</li>
+	<li>Added: Mobile setting for switching the side of the accelerate &amp; steering buttons</li>
+	<li>Added: Touch buttons vibration in supported browsers (disabled by default)</li>
+	<li>Added: Touch swipe to change categories in the track selection</li>
+	<li>Added: Safe areas for display cutouts on mobile</li>
+	<li>Added: Warning explaining why the leaderboard cannot be loaded on unofficial versions of the game</li>
+	<li>Added: Error screen in case the game encounters an unexpected error</li>
+	<li>Added: Admin leaderboard moderation tools</li>
+	<br>
+	<li>Changed: Skidmark conditions at low speeds</li>
+	<li>Changed: Game toolbar visibility logic</li>
+	<li>Changed: The horizontal FOV is now limited to 100 degrees due to the new shadow system</li>
+	<li>Changed: Better names for key bindings instead of using raw key codes such as "KeyA"</li>
+	<li>Changed: The UI when importing/exporting tracks now uses the full height of the window</li>
+	<li>Changed: Game logo and Discord link image are faded in when loaded</li>
+	<br>
+	<li>Fixed: Changed the server port to prevent leaderboard access being restricted on certain networks</li>
+	<li>Fixed: Inputs being tied to game frame rate</li>
+	<li>Fixed: Physics error in old versions of Safari</li>
+	<li>Fixed: Physics error in old versions of Chrome</li>
+	<li>Fixed: Only camera resetting if resetting after passing unrespawnable checkpoint on mobile</li>
+	<li>Fixed: Context menu would open when clicking the editor height selection buttons on touch screens</li>
+	<li>Fixed: Editor height selection button effects getting stuck when using touch screen</li>
+	<li>Fixed: Car texture disappearing after graphics context was lost</li>
+	<li>Fixed: Removed horizontal scroll in track selection on mobile</li>
+	<li>Fixed: Leaderboard go to position button scrolling whole web page when the game is embedded</li>
+	<li>Fixed: Preload fonts to prevent unstyled font being visible while loading</li>
+	<br>
+	<li>Optimized: Skidmark calculation</li>
+	<li>Optimized: .ogg &amp; .mp3 formats are now used for audio instead of .flac</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2025-07-16/polytrack-0.5.1" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>PolyTrack 0.5.0 - Winter &amp; Desert</h1>
+<time>2025-04-07</time>
+<a href="/updates/media/2025-04-07.jpg"><img loading="lazy" src="/updates/media/2025-04-07.jpg" alt="Screenshot of PolyTrack"></a>
+<p>PolyTrack 0.5.0 is a major update introducing many new features, including Winter and Desert environments, the ability to race or watch up to 10 ghosts simultaneously, checkpoint respawning and more.</p>
+<p>The editor has also been updated allowing track parts to be overlapped, rotated around any axis and placed more precisely using a smaller grid.</p>
+<ul>
+	<li>Added: New environments</li>
+	<ul>
+		<li>Winter environment</li>
+		<li>Desert environment</li>
+	</ul>
+	<li>Added: Color selection for track parts</li>
+	<li>Added: New colors for blocks</li>
+	<li>Added: Race/watch multiple ghosts at the same time</li>
+	<li>Added: Air brake to reduce rotation mid-air</li>
+	<li>Added: Featured community tracks</li>
+	<li>Added: Respawning at checkpoints</li>
+	<li>Added: Split time at checkpoints</li>
+	<li>Added: Editor rotation axis for track parts</li>
+	<li>Added: Editor allow overlapping track parts</li>
+	<li>Added: Editor some track parts can be combined</li>
+	<li>Added: Editor smaller grid for track parts</li>
+	<li>Added: Editor track settings screen</li>
+	<li>Added: Editor sun position setting</li>
+	<li>Added: Editor visualize tiles for track parts</li>
+	<li>Added: Editor new toolbar on the left side of the screen</li>
+	<li>Added: New track parts</li>
+	<ul>
+		<li>Block slope vertical</li>
+		<li>Plane slope vertical</li>
+		<li>Plane starting point</li>
+		<li>Plane wide starting point</li>
+		<li>Wide starting point</li>
+		<li>Wide turns</li>
+		<li>Wall ride inner corner without gray ground</li>
+		<li>Road to slope up to vertical</li>
+		<li>Block for wall ride corner</li>
+		<li>Block for wall ride inner corner</li>
+		<li>Wall ride bottom to sloped plane</li>
+		<li>Long slopes for wide road &amp; planes</li>
+		<li>Block long slopes</li>
+	</ul>
+	<li>Added: New official tracks</li>
+	<ul>
+		<li>Winter 4</li>
+		<a href="/updates/media/2025-04-07_2.jpg"><img loading="lazy" src="/updates/media/2025-04-07_2.jpg" alt="Screenshot of PolyTrack"></a>
+		<li>Desert 4</li>
+		<a href="/updates/media/2025-04-07_3.jpg"><img loading="lazy" src="/updates/media/2025-04-07_3.jpg" alt="Screenshot of PolyTrack"></a>
+	</ul>
+	<li>Added: Track author field</li>
+	<li>Added: Track share button</li>
+	<li>Added: Search bar for tracks</li>
+	<li>Added: Fullscreen button in menu</li>
+	<li>Added: Pausing by pressing Space or P</li>
+	<li>Added: A loading progress indicator for ghosts</li>
+	<li>Added: A button to go directly from gameplay to watching</li>
+	<li>Added: Buttons for selecting official, community and custom tracks</li>
+	<li>Added: A warning will be displayed if playing against an invalid replay</li>
+	<li>Added: Reminder text for selecting leaderboard opponents</li>
+	<li>Added: Leaderboard now labels your own record as "You"</li>
+	<li>Added: Leaderboard now displays the game version by the title</li>
+	<li>Added: Customization save button</li>
+	<li>Added: Keybinds for rotating the editor camera up/down</li>
+	<li>Added: Background cover while game is loading</li>
+	<li>Added: Category titles in keybind settings</li>
+	<li>Added: An option to hide the checkpoint counter, timer and speedometer</li>
+	<li>Added: Default camera setting</li>
+	<li>Added: Menu buttons bounce effect after loading</li>
+	<li>Added: Migrate save data for keybindings and settings</li>
+	<li>Added: Warning when playing unofficial versions of PolyTrack</li>
+	<li>Added: Close some dialogs by pressing Enter</li>
+	<li>Added: Validation for track parts when the game loads</li>
+	<br>
+	<li>Changed: Suspension has been made smoother</li>
+	<li>Changed: Increased turning speed</li>
+	<li>Changed: Increased fog distance and changed fog color</li>
+	<li>Changed: Official &amp; community tracks leaderboard will only show verified runs by default</li>
+	<li>Changed: Renamed standard tracks to official tracks</li>
+	<li>Changed: Renamed tracks</li>
+	<ul>
+		<li>Track 1 -> Summer 1</li>
+		<li>Track 2 -> Winter 1</li>
+		<li>Track 3 -> Summer 2</li>
+		<li>Track 4 -> Summer 3</li>
+		<li>Track 5 -> Winter 3</li>
+		<li>Track 6 -> Summer 4</li>
+		<li>Track 7 -> Desert 1</li>
+		<li>Track 8 -> Summer 5</li>
+		<li>Track 9 -> Winter 2</li>
+		<li>Track 10 -> Summer 6</li>
+		<li>Track 11 -> Desert 2</li>
+		<li>Track 12 -> Desert 3</li>
+		<li>Track 13 -> Summer 7</li>
+	</ul>
+	<li>Changed: Updated tracks</li>
+	<ul>
+		<li>Summer 1 (Track 1) smoother corners are used</li>
+		<li>Summer 2 (Track 3) removed wall after loop</li>
+		<li>Summer 4 (Track 6) changed jump platform and moved downward slope further away</li>
+		<li>Summer 5 (Track 8) slightly wider entrance at the last wall ride turn</li>
+		<li>Summer 6 (Track 10) removed bump and removed chicane</li>
+		<li>Summer 7 (Track 13) added a missing block and decoration</li>
+		<li>Winter 1 (Track 2) redesigned the second turn and changed environment to winter</li>
+		<li>Winter 2 (Track 9) changed environment to winter</li>
+		<li>Winter 3 (Track 5) changed environment to winter and removed the jump</li>
+		<li>Desert 1 (Track 7) changed environment to desert and added checkpoint</li>
+		<li>Desert 2 (Track 11) changed environment to desert</li>
+		<li>Desert 3 (Track 12) changed environment to desert</li>
+	</ul>
+	<li>Changed: Removed old combined track parts</li>
+	<li>Changed: Smaller checkpoint detection boxes</li>
+	<li>Changed: Slopes are now smoother across most track parts</li>
+	<li>Changed: Angle of wall rides was not perfectly circular</li>
+	<li>Changed: Made car slightly less difficult to flip</li>
+	<li>Changed: Car collision mesh has been changed to take the wheels into account better</li>
+	<li>Changed: Adjusted collision audio</li>
+	<li>Changed: Better camera position when driving straight up or straight down</li>
+	<li>Changed: The watch button has been moved so it's easier to click on mobile</li>
+	<li>Changed: Watched replays will continue playing after replay reaches finish</li>
+	<li>Changed: The editor will center on the starting point when loading a new track</li>
+	<li>Changed: The editor height selection buttons can be held to move faster</li>
+	<li>Changed: Editor new test button icon</li>
+	<li>Changed: Editor new thumbnails for track part categories</li>
+	<li>Changed: Empty profile slots now say "Empty" with a placeholder car</li>
+	<li>Changed: After exiting the player will be returned to the track selection screen</li>
+	<li>Changed: The maximum time is now 99:59:99</li>
+	<li>Changed: Loading screen fade out</li>
+	<li>Changed: Music now plays only after loading has finished</li>
+	<li>Changed: Increased max saturation for randomized car colors</li>
+	<li>Changed: Text for the verified only button to make it clearer what it does</li>
+	<li>Changed: Most fonts are now italic</li>
+	<li>Changed: Removed the old touch exit button in favor of the new game toolbar</li>
+	<li>Changed: Only one instance of the downloadable version can be opened at once</li>
+	<li>Changed: Adjusted color &amp; size of ordinal numbers (st, nd, th)</li>
+	<li>Changed: Track codes now start with PolyTrack1 instead of v3</li>
+	<li>Changed: The slightly darker color on the underside of blocks has been removed</li>
+	<li>Changed: Physics thread will send updates at the same frame rate as the main thread</li>
+	<li>Changed: Only one tab of PolyTrack can be opened now to prevent save corruption</li>
+	<li>Changed: Locally stored records will be deleted when deleting a track</li>
+	<li>Changed: Saves are kept separate when determinism check fails</li>
+	<br>
+	<li>Optimized: Track thumbnails are cached to prevent lag spikes when opening the track selection screen</li>
+	<li>Optimized: Not all car thumbnails will be rendered at once to prevent lag spikes</li>
+	<li>Optimized: Compressed 3D models</li>
+	<li>Optimized: Track data compression</li>
+	<li>Optimized: Car recording size</li>
+	<li>Optimized: Physics buckets</li>
+	<li>Optimized: Disable ground &amp; mountain physics when on track</li>
+	<li>Optimized: Track parts now use flipped versions of the same model</li>
+	<li>Optimized: Prevent shaders being recompiled when cars are respawned</li>
+	<li>Optimized: Disabled shader error checks</li>
+	<li>Optimized: Disabled cameras for ghosts</li>
+	<br>
+	<li>Fixed: Determinism issues in Firefox</li>
+	<li>Fixed: Start points were not completely flat</li>
+	<li>Fixed: Small bumps between track parts</li>
+	<li>Fixed: Finishes not being registered at high speeds</li>
+	<li>Fixed: The spectator camera no longer locks the mouse so it works on all platforms</li>
+	<li>Fixed: Clouds moving while game is paused while using the spectator camera</li>
+	<li>Fixed: Incorrect aerodynamics making reversing physics unstable</li>
+	<li>Fixed: Increased camera minimum distance to lower z-fighting</li>
+	<li>Fixed: The camera would always change back to the orbit camera when resetting</li>
+	<li>Fixed: Skid marks no longer disappear after ghosts despawn</li>
+	<li>Fixed: Car suspension compressing slowly when standing still after starting</li>
+	<li>Fixed: Lag spike when opening editor due to too many thumbnails being generated</li>
+	<li>Fixed: Leaderboard page not being reset when toggling only verified filter</li>
+	<li>Fixed: Leaderboard large page numbers overflowing button</li>
+	<li>Fixed: Error when importing track with part collision</li>
+	<li>Fixed: Editor delete tool not selectable before another part has been selected</li>
+	<li>Fixed: Plane slope pillars in wrong order in editor</li>
+	<li>Fixed: Placing a wide checkpoint in the same place as a normal checkpoint resulted in incorrect checkpoint number positioning</li>
+	<li>Fixed: White screen when opening the editor too many times</li>
+	<li>Fixed: Very old tracks from version 0.1.0 failed to load</li>
+	<li>Fixed: Privacy policy link not opening on downloadable version</li>
+	<li>Fixed: Buttons changing size when icons load</li>
+	<li>Fixed: Holding down the respawn key causing lag due to the car constantly respawning</li>
+	<li>Fixed: Not being able to change profile when determinism check fails</li>
+	<li>Fixed: Records being added to incorrect profile when having multiple tabs open</li>
+	<li>Fixed: Tracks failing to migrate from PolyTrack version 0.1</li>
+	<li>Fixed: Could not open leaderboard &amp; track info for tracks without starting points</li>
+	<li>Fixed: Horizontal scrollbar while leaderboard loads in some cases</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2025-04-07/polytrack-0.5.0" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>PolyTrack 0.4.2</h1>
+<time>2024-11-01</time>
+<p>This update is compatible with 0.4.0 and 0.4.1, so updating is optional but recommended.</p>
+<ul>
+	<li>Added: Privacy policy</li>
+	<br>
+	<li>Fixed: Rare error when loading corrupt tracks or replays</li>
+	<li>Fixed: Performance issue on devices with a device pixel ratio other than one</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2024-11-01/polytrack-0.4.2" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>PolyTrack 0.4.1</h1>
+<time>2024-08-15</time>
+<p>This update is compatible with 0.4.0, so updating is optional but recommended.</p>
+<ul>
+	<li>Added: Editor instructions</li>
+	<li>Added: Implemented SDK for some game portals</li>
+	<br>
+	<li>Fixed: Resolved Pointer Lock API error on iPhones</li>
+	<li>Fixed: Addressed issue of canvas turning blue when clicking on iPhones</li>
+	<li>Fixed: Applied temporary fix for missing triangle on start track part</li>
+	<li>Fixed: Resolved issue of time announcer getting stuck on screen when finishing at the same time as resetting</li>
+	<li>Fixed: Adjusted editor buttons to prevent them from going off screen in some languages</li>
+	<li>Fixed: Preloading of some images</li>
+	<li>Fixed: Optimized verifier to reduce server requests</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2024-08-15/polytrack-0.4.1" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>PolyTrack 0.4.0 - Replays &amp; mobile support</h1>
+<time>2024-07-29</time>
+<a href="/updates/media/2024-07-29_1.jpg"><img loading="lazy" src="/updates/media/2024-07-29_1.jpg" alt="Screenshot of PolyTrack"></a>
+<ul>
+	<li>Added: Watching replays from the leaderboard</li>
+	<a href="/updates/media/2024-07-29_2.jpg"><img loading="lazy" src="/updates/media/2024-07-29_2.jpg" alt="Screenshot of PolyTrack"></a>
+	<li>Added: Button to navigate to your own position on the leaderboard</li>
+	<li>Added: Option to filter out non-verified results on the leaderboard</li>
+	<li>Added: Possibility to switch between multiple profiles</li>
+	<li>Added: Export profiles to other devices</li>
+	<li>Added: Server syncing for user profiles</li>
+	<li>Added: Categories for track parts in the editor</li>
+	<li>Added: Editor test keyboard shortcut</li>
+	<li>Added: Editor pick hovered track part keyboard shortcut</li>
+	<li>Added: Editor camera allow viewing from below the editing height</li>
+	<li>Added: The track name is now shown when finishing a track</li>
+	<li>Added: Hex color input for car colors</li>
+	<li>Added: Option to move UI elements to the top or bottom of the screen</li>
+	<li>Added: Hide/show game UI keyboard shortcut</li>
+	<li>Added: Exit button after resetting car</li>
+	<li>Added: Touch screen and mobile controls</li>
+	<a href="/updates/media/2024-07-29_3.jpg"><img loading="lazy" src="/updates/media/2024-07-29_3.jpg" alt="Screenshot of PolyTrack"></a>
+	<li>Added: It should now be possible to install the game as a Progressive Web App (PWA)</li>
+	<li>Added: New tracks</li>
+	<ul>
+		<li>Track 11</li>
+		<a href="/updates/media/2024-07-29_4.jpg"><img loading="lazy" src="/updates/media/2024-07-29_4.jpg" alt="Screenshot of PolyTrack"></a>
+		<li>Track 12</li>
+		<a href="/updates/media/2024-07-29_5.jpg"><img loading="lazy" src="/updates/media/2024-07-29_5.jpg" alt="Screenshot of PolyTrack"></a>
+		<li>Track 13</li>
+		<a href="/updates/media/2024-07-29_6.jpg"><img loading="lazy" src="/updates/media/2024-07-29_6.jpg" alt="Screenshot of PolyTrack"></a>
+	</ul>
+	<li>Added: 100 new track parts</li>
+	<br>
+	<li>Changed: Custom tracks are now sorted by newest</li>
+	<li>Changed: When importing the track will be opened automatically</li>
+	<li>Changed: Removed the game logo from the track selection screen</li>
+	<li>Changed: Removed the slope from the starting point</li>
+	<li>Changed: Flag icon for checkpoint counter</li>
+	<li>Changed: Updated Tracks 1 through 10</li>
+	<li>Changed: Proper Discord logo</li>
+	<br>
+	<li>Optimized: Multithreaded car simulation</li>
+	<li>Optimized: Precalculate ghost simulation</li>
+	<li>Optimized: Vertex colors for multicolor track parts</li>
+	<li>Optimized: Wasm for physics simulation instead of asm.js</li>
+	<br>
+	<li>Fixed: Tracks with certain names could not be imported</li>
+	<li>Fixed: Color picker offset on small screens</li>
+	<li>Fixed: Time being formatted incorrectly</li>
+	<li>Fixed: Ordinal numbers in the leaderboard were incorrect</li>
+	<li>Fixed: Cockpit camera toggle option did not work in the editor</li>
+	<li>Fixed: Spectator camera did not work in the editor</li>
+	<li>Fixed: Spectator camera incorrect rotation if initiated from the cockpit view</li>
+	<li>Fixed: Car thumbnail wheel position</li>
+	<li>Fixed: Car thumbnail had incorrect lighting</li>
+	<li>Fixed: SFX volume affecting checkpoint sound effects</li>
+	<li>Fixed: Ghost car volume being reset incorrectly</li>
+	<li>Fixed: Nickname max length not counting UTF-8 characters correctly</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2024-07-29/polytrack-0.4.0" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Snakes without Brakes 1.0.1</h1>
+<time>2024-07-03</time>
+<ul>
+	<li>Added: Automatically reset if player gets stuck</li>
+	<br>
+	<li>Fixed: Levels not loading correctly in Firefox</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2024-07-03/snakes-without-brakes-1.0.1" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>PolyTrack 0.3.1</h1>
+<time>2023-10-29</time>
+<a href="/updates/media/2023-10-29.jpg"><img loading="lazy" src="/updates/media/2023-10-29.jpg" alt="Screenshot of PolyTrack"></a>
+<p>This update is compatible with 0.3.0, so updating is optional but recommended.</p>
+<ul>
+	<li>Added: In-game Discord link</li>
+	<li>Added: The escape key can now be used to close the leaderboard, track import/export and track selection screens.</li>
+	<br>
+	<li>Changed: When two leaderboard entries have the same time, the person who submitted the record first will be at the top.</li>
+	<li>Changed: Improved the determinism test to be more accurate to prevent invalid replays being submitted.</li>
+	<br>
+	<li>Optimized: Verification process</li>
+	<br>
+	<li>Fixed: Frame color not affecting wheels in leaderboard images</li>
+	<li>Fixed: A rare problem where some valid replays would be marked as invalid</li>
+	<li>Fixed: Long nicknames would create a line break and hide the verification status in the leaderboard</li>
+	<li>Fixed: The track import window was slightly overlapping the game logo</li>
+	<li>Fixed: Error if wheel audio plays before audio panners had been initialized</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2023-10-29/polytrack-0.3.1" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>PolyTrack 0.3.0 - Checkpoints &amp; leaderboards</h1>
+<time>2023-10-22</time>
+<a href="/updates/media/2023-10-22.jpg"><img loading="lazy" src="/updates/media/2023-10-22.jpg" alt="Screenshot of PolyTrack"></a>
+<ul>
+	<li>Added: Leaderboard</li>
+	<li>Added: Select opponents to play against from the leaderboard</li>
+</ul>
+<a href="/updates/media/2023-10-22_2.jpg"><img loading="lazy" src="/updates/media/2023-10-22_2.jpg" alt="Screenshot of PolyTrack"></a>
+<ul>
+	<li>Added: Checkpoints</li>
+	<li>Added: Dynamic clouds</li>
+	<li>Added: New music</li>
+	<li>Added: Settings menu</li>
+	<ul>
+		<li>Option for imperial units</li>
+		<li>Option to disable reset hint</li>
+		<li>Option to disable ghost car</li>
+		<li>Option to disable particles</li>
+		<li>Option to disable skidmarks</li>
+		<li>Graphics settings</li>
+		<li>Audio settings</li>
+		<li>Key bindings</li>
+	</ul>
+	<li>Added: Cockpit camera by pressing [C] or [M]</li>
+	<li>Added: Checkpoint sound effect</li>
+	<li>Added: Editor keyboard camera controls</li>
+	<li>Added: Editor delete hotkey [X] or [DELETE]</li>
+	<li>Added: Menu button icon animations</li>
+	<li>Added: Track thumbnails shows checkpoints</li>
+	<li>Added: New tracks</li>
+	<ul>
+		<li>Track 8<a href="/updates/media/2023-10-22_3.jpg"><img loading="lazy" src="/updates/media/2023-10-22_3.jpg" alt="Screenshot of PolyTrack"></a></li>
+		<li>Track 9<a href="/updates/media/2023-10-22_4.jpg"><img loading="lazy" src="/updates/media/2023-10-22_4.jpg" alt="Screenshot of PolyTrack"></a></li>
+		<li>Track 10<a href="/updates/media/2023-10-22_5.jpg"><img loading="lazy" src="/updates/media/2023-10-22_5.jpg" alt="Screenshot of PolyTrack"></a></li>
+	</ul>
+	<li>Added: New track parts</li>
+	<ul>
+		<li>Checkpoint</li>
+		<li>Half block</li>
+		<li>Quarter block</li>
+		<li>Half plane</li>
+		<li>Quarter plane</li>
+		<li>Plane bridge</li>
+		<li>Sign arrow left</li>
+		<li>Sign arrow right</li>
+		<li>Sign arrow up</li>
+		<li>Sign arrow down</li>
+		<li>Sign warning</li>
+		<li>Sign wrong way</li>
+		<li>Wide checkpoint</li>
+		<li>Wall track ceiling</li>
+		<li>Wall track floor</li>
+		<li>Block sloped down</li>
+		<li>Block sloped down inner corner</li>
+		<li>Block sloped down outer corner</li>
+		<li>Block sloped up</li>
+		<li>Block sloped up inner corner</li>
+		<li>Block sloped up outer corner</li>
+		<li>Wide finish</li>
+		<li>Plane checkpoint</li>
+		<li>Plane finish</li>
+		<li>Plane wide checkpoint</li>
+		<li>Plane wide finish</li>
+	</ul>
+	<li>Added: Localization</li>
+	<ul>
+		<li>Arabic</li>
+		<li>German</li>
+		<li>Spanish</li>
+		<li>French</li>
+		<li>Italian</li>
+		<li>Japanese</li>
+		<li>Korean</li>
+		<li>Polish</li>
+		<li>Portuguese (Brazil)</li>
+		<li>Portuguese (Portugal)</li>
+		<li>Russian</li>
+		<li>Turkish</li>
+		<li>Ukrainian</li>
+		<li>Simplified Chinese</li>
+		<li>Traditional Chinese</li>
+	</ul>
+	<br>
+	<li>Changed: Added checkpoints to all existing tracks</li>
+	<li>Changed: Car collision model to prevent bouncing when hitting barrier</li>
+	<li>Changed: Car handling to prevent spinning out</li>
+	<li>Changed: Car frame color also affect wheels</li>
+	<li>Changed: Base62 is now used for track codes to prevent issues with the - and _ characters</li>
+	<li>Changed: Track names are now also encoded to prevent issues with special characters</li>
+	<li>Changed: When a track has multiple starting points, the last one will be used instead of the first</li>
+	<li>Changed: A time difference of zero is now red instead of green</li>
+	<li>Changed: Car collision audio</li>
+	<li>Changed: Ghost car audio volume</li>
+	<li>Changed: The UI will be scaled down on small screens</li>
+	<li>Changed: The mouse cursor is shown when it is moved</li>
+	<li>Changed: Track thumbnail minimum zoom for very small tracks</li>
+	<li>Changed: The timer can also be started by reversing now</li>
+	<li>Changed: Slightly lighter tire color</li>
+	<li>Changed: Road barriers slightly lighter color</li>
+	<li>Changed: Editor prevent building too far from center to prevent mistakes</li>
+	<li>Changed: Updated ThreeJS to r155</li>
+	<br>
+	<li>Optimized: Skidmark raytracing</li>
+	<li>Optimized: Enabled backface culling</li>
+	<li>Optimized: Lowered physics activation distance</li>
+	<li>Optimized: Compressed tracks</li>
+	<li>Optimized: Compressed replays</li>
+	<br>
+	<li>Fixed: Track material being too reflective</li>
+	<li>Fixed: Wheels not spinning when not in contact with ground</li>
+	<li>Fixed: Wheels not spinning when accelerating without ground contact</li>
+	<li>Fixed: Engine volume when in mid-air</li>
+	<li>Fixed: Error when importing very large tracks</li>
+	<li>Fixed: Car collision audio not always playing</li>
+	<li>Fixed: Crackling tire audio in Firefox</li>
+	<li>Fixed: Car shadow shaking on some devices</li>
+	<li>Fixed: Game rendering in too low resolution since the pixel ratio of the device was not accounted for</li>
+	<li>Fixed: Tracks could not be imported if there was a whitespace in the track code</li>
+	<li>Fixed: Error when importing track code with an invalid character</li>
+	<li>Fixed: Tracks with very long names creating wide cards in track selection</li>
+	<li>Fixed: Fonts not loading in some browsers</li>
+	<li>Fixed: Physics memory leak causing crash when playing for a long time</li>
+	<li>Fixed: XML parse errors in Firefox console</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2023-10-22/polytrack-0.3.0" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>PolyTrack 0.2.0</h1>
+<time>2023-03-21</time>
+<a href="/updates/media/2023-03-21.jpg"><img loading="lazy" src="/updates/media/2023-03-21.jpg" alt="Screenshot of PolyTrack"></a>
+<ul>
+	<li>Added: Ghost replays to race against</li>
+	<li>Added: Ghost replays driving on the track in the menu</li>
+	<li>Added: New track save format</li>
+	<li>Added: New tracks</li>
+	<ul>
+		<li>Track 5</li>
+		<li>Track 6</li>
+		<li>Track 7</li>
+	</ul>
+	<li>Added: New track parts</li>
+	<ul>
+		<li>Short smooth turn</li>
+		<li>Long smooth turn</li>
+		<li>Long slope up</li>
+		<li>Long slope down</li>
+		<li>Slope with pillar at bottom</li>
+		<li>S-curve left</li>
+		<li>S-curve right</li>
+		<li>T-intersection</li>
+		<li>Cross intersection</li>
+		<li>Pillar with one side branch</li>
+		<li>Pillar with two side branches</li>
+		<li>Pillar with three side branches</li>
+		<li>Pillar with four side branches</li>
+		<li>Vertical track bottom round corner</li>
+		<li>Vertical track middle corner</li>
+		<li>Vertical track top round corner</li>
+	</ul>
+	<li>Added: Background mountains</li>
+	<li>Added: Smoke particle effect from skid marks</li>
+	<li>Added: Up and down buttons in editor</li>
+	<br>
+	<li>Tweaked: UI rework</li>
+	<li>Tweaked: New logo</li>
+	<li>Tweaked: New font</li>
+	<li>Tweaked: Updated track 1</li>
+	<li>Tweaked: Updated car model</li>
+	<li>Tweaked: Rotated car in customization so it is not in shadow</li>
+	<li>Tweaked: Adjusted steering curve</li>
+	<li>Tweaked: Increased tires audio volume</li>
+	<br>
+	<li>Fixed: Timer showing "undefined" when over 10 minutes</li>
+	<li>Fixed: Reset part selection when leaving editor</li>
+	<li>Fixed: Physics were not completely deterministic</li>
+	<li>Fixed: Crashing into finish from underneath being detected</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2023-03-21/polytrack-0.2.0" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>PolyTrack 0.1.1</h1>
+<time>2022-12-20</time>
+<ul>
+	<li>Fixed: The UI click sound failed to load in Firefox</li>
+	<li>Fixed: After finishing a track, the time announcement UI would sometimes get stuck and show in the menu as well</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2022-12-20/polytrack-0.1.1" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>PolyTrack</h1>
+<time>2022-12-20</time>
+<p>PolyTrack is a low-poly racing game with loops, jumps and high speeds, where every millisecond counts. The game is heavily inspired by TrackMania, where you race against the clock to improve your time on different tracks.</p>
+<p>The game includes a level editor where you can create tracks, which you can then export and share with others.</p>
+<a href="/updates/media/2022-12-20.jpg"><img loading="lazy" src="/updates/media/2022-12-20.jpg" alt="Screenshot of PolyTrack"></a>
+</section><footer><a class="underline-button" href="/updates/2022-12-20/polytrack" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Krossa 1.02.6 &amp; DustSim 1.03.1</h1>
+<time>2022-07-07</time>
+<ul>
+	<li>Fixed: Query string parameters not working since <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/domain">document.domain</a> has been deprecated</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2022-07-07/krossa-1.02.6" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>New website design</h1>
+<time>2022-07-03</time>
+<p>
+	My website is more than 5 years old now, so it was certainly time for a refresh.
+	The new design uses a purple dark theme instead of the old very bright white and orange theme.
+</p>
+<a href="/updates/media/2022-07-03.jpg"><img loading="lazy" src="/updates/media/2022-07-03.jpg" alt="Screenshot of the new website design"></a>
+<p>I also have a new logo which is a bit more distinct than a plain orange square!</p>
+<a href="/updates/media/2022-07-03_2.png"><img loading="lazy" src="/updates/media/2022-07-03_2.png" alt="The new logo"></a>
+<p>
+	The biggest reason for the redesign wasn't actually to just make it look nicer,
+	but with my old website it was a bit cumbersome to add new projects and
+	blog posts. For example, when I wanted to add a new project on my old website, I had to add
+	code at 7 different places across the website, but now with my new website all
+	I have to do is drag in a folder and PHP takes care of the rest.
+</p>
+<p>If you find any problems with the new design you can message me on Twitter or email me.</p></section><footer><a class="underline-button" href="/updates/2022-07-03/new-website-design" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>DustSim 1.03 - The Scenario Editor</h1>
+<time>2021-09-24</time>
+<p>This update includes a scenario editor which you can use to modify the built-in scenarios or even create your own DustSim scenarios. These scenarios can then be saved and shared either as a link or as a string of data.</p>
+<ul>
+	<li>Added: Scenario editor</li>
+	<a href="/updates/media/2021-09-24.png"><img loading="lazy" src="/updates/media/2021-09-24.png" alt="DustSim 1.03 screenshot"></a>
+	<li>Added: Import/Export scenarios</li>
+	<a href="/updates/media/2021-09-24_2.png"><img loading="lazy" src="/updates/media/2021-09-24_2.png" alt="DustSim 1.03 screenshot"></a>
+	<li>Added: Loading screen when loading scenarios</li>
+	<li>Added: 12 new scenarios</li>
+	<ul>
+		<li>Encounter negative</li>
+		<li>Encounter negative 2</li>
+		<li>Collision</li>
+		<li>Cut</li>
+		<li>Orbiters in ring</li>
+		<li>Eccentric orbits</li>
+		<li>Swing</li>
+		<li>Swing negative</li>
+		<li>Blender two</li>
+		<li>Blender four</li>
+		<li>Blender eight</li>
+		<li>Carousel</li>
+	</ul>
+	<li>Added: Poles separate options for giving and receiving gravity from other poles</li>
+	<li>Added: Poles transparency setting</li>
+	<li>Added: Button for resetting all view options to default</li>
+	<li>Added: Setting for adjusting the gravity influence on particles</li>
+	<li>Added: Advanced allow super high amount of particles</li>
+	<li>Added: Advanced option to disable anti-aliasing</li>
+	<li>Added: Advanced setting show steps and time elapsed</li>
+	<li>Added: Touch screen support</li>
+	<br>
+	<li>Tweaked: Increased maximum amount of poles to 50 from 12</li>
+	<a href="/updates/media/2021-09-24_3.png"><img loading="lazy" src="/updates/media/2021-09-24_3.png" alt="DustSim 1.03 screenshot"></a>
+	<li>Tweaked: Lowered the default particle limit again due to the new advanced particle limit option</li>
+	<li>Tweaked: Consistent zoom on different sized screens</li>
+	<li>Tweaked: The outline in the pole creation tool is now easier to see</li>
+	<li>Tweaked: Step length is now a global setting instead of a scenario specific setting</li>
+	<li>Tweaked: The pole models now have more vertices to give them a smoother look</li>
+	<li>Tweaked: The arrow keys can now be used to change the color in a color picker instead of having to tab through every single color individually</li>
+	<li>Tweaked: "Max particles" renamed to "Particle limit"</li>
+	<li>Tweaked: "Interpolar force strength" renamed to "Pole influence"</li>
+	<li>Tweaked: "Pole tool" renamed to "Poles"</li>
+	<li>Tweaked: "Particle tool" renamed to "Particles"</li>
+	<br>
+	<li>Fixed: Gaps when creating particles and moving mouse quickly</li>
+	<li>Fixed: Using up/down arrow keys to move camera would scroll side tab</li>
+	<li>Fixed: Using arrow keys to change slider value would move the camera</li>
+	<li>Fixed: Some hardware(mainly mobile) were using lowp samplers causing particles to behave weirdly</li>
+	<li>Fixed: The scenarios "Crushing six" and "Crushing eight" were broken</li>
+	<li>Fixed: Poles and particles updating in an incorrect order</li>
+	<li>Fixed: Particle tool failing to create particles in some circumstances</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2021-09-24/dustsim-1.03" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>DustSim 1.02 - Accessibility &amp; Aesthetics</h1>
+<time>2021-02-04</time>
+<p>Accessibility is an important part of this update. All buttons and settings can now be accessed with just a keyboard. Particles and poles cannot be spawned without a mouse, but at least the preconfigured scenarios can be viewed now.</p>
+<p>The camera can be moved using WASD or the arrow keys and zoom can be changed with Q &amp; E. There are new shortcut keys for quickly pausing the simulation(Space or P) and for hiding the user interface(H).</p>
+<p>The update includes several new features for changing the look of the particles, as well as changing the color of the poles and background. Many new scenarios have been added in addition to some minor optimizations and bug fixes.</p>
+<ul>
+	<li>Added: Particle sprites</li>
+	<li>Added: Slider for choosing the size of the particle sprites</li>
+	<a href="/updates/media/2021-02-04.png"><img loading="lazy" src="/updates/media/2021-02-04.png" alt="DustSim 1.02 screenshot"></a>
+	<li>Added: New particle color theme depending on the direction of travel</li>
+	<a href="/updates/media/2021-02-04_2.png"><img loading="lazy" src="/updates/media/2021-02-04_2.png" alt="DustSim 1.02 screenshot"></a>
+	<li>Added: New particle color theme where every particle is randomly colored</li>
+	<li>Added: When the single color theme is used the color can be selected instead of just being white</li>
+	<li>Added: Option to disable particle brightness variation</li>
+	<li>Added: The background color can now be changed in the view tab</li>
+	<li>Added: The color of the poles can also be changed in the view tab</li>
+	<li>Added: A slider for changing the display size of the poles</li>
+	<li>Added: Option to have the display size of the poles not depend on the zoom</li>
+	<a href="/updates/media/2021-02-04_3.png"><img loading="lazy" src="/updates/media/2021-02-04_3.png" alt="DustSim 1.02 screenshot"></a>
+	<li>Added: 18 new scenarios</li>
+	<ul>
+		<li>Spinning around grid</li>
+		<li>Tidal force 2</li>
+		<li>Two orbiting rings</li>
+		<li>Three orbiting rings</li>
+		<li>Moon with ring</li>
+		<li>Moon inside ring</li>
+		<li>Symmetry 3</li>
+		<li>Drop two</li>
+		<li>Drop three</li>
+		<li>Drop six</li>
+		<li>Birds</li>
+		<li>Flower six</li>
+		<li>Flower twelve</li>
+		<li>Exploding flower</li>
+		<li>Crushing ring</li>
+		<li>Crushing spinning</li>
+		<li>Umbrella</li>
+		<li>Contained rings</li>
+	</ul>
+	<li>Added: The camera can now be moved using the arrow keys or WASD</li>
+	<li>Added: All buttons, sliders and other settings are now accessible with a keyboard</li>
+	<li>Added: The simulation can now easily be paused by pressing Space or P</li>
+	<li>Added: Press H to completely hide the user interface</li>
+	<li>Added: The zoom percentage can now be seen in the top right corner</li>
+	<li>Added: Scrollbar subtle hover effect</li>
+	<li>Added: WebGL2 support</li>
+	<br>
+	<li>Tweaked: Moved view settings out of the settings tab to its own separate view tab</li>
+	<li>Tweaked: Increased the max particles limit to 37 748 736</li>
+	<li>Tweaked: Particle tool default amount changed to 90 000</li>
+	<li>Tweaked: Particle tool default random velocity changed to 5</li>
+	<li>Tweaked: Changed style of FPS counter to be smaller</li>
+	<li>Tweaked: Particle brightness renamed to particle opacity</li>
+	<li>Tweaked: Renamed custom particle color theme to multicolor</li>
+	<li>Tweaked: Interpolar force strength is now shown as percentage of default</li>
+	<li>Tweaked: Interpolar force strength increased max amount</li>
+	<li>Tweaked: Interpolar force strength increased default value</li>
+	<li>Tweaked: Icons are now SVGs instead of raster images</li>
+	<li>Tweaked: Max particles slider will be reset if switching tab before applying</li>
+	<li>Tweaked: Updated Three.js to r124</li>
+	<br>
+	<li>Optimized: Rendering by precomputing the projectionModelView matrix outside of the shader</li>
+	<li>Optimized: Simulation by not simulating unused poles</li>
+	<br>
+	<li>Fixed: Color theme would get reset if the max amount of particles was changed</li>
+	<li>Fixed: Zooming while dragging the view behaved weirdly</li>
+	<li>Fixed: FPS counter never showed less than 10 fps</li>
+	<li>Fixed: A bug causing the canvas to constantly resize degrading performance</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2021-02-04/dustsim-1.02" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Game of Life 3D 1.01.2</h1>
+<time>2021-01-24</time>
+<ul>
+	<li>Fixed: Inaccurate simulation results on some graphics cards due to rounding errors</li>
+	<li>Fixed: Some UI elements being refreshed twice when scenes were loaded</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2021-01-24/game-of-life-3d-1.01.2" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Game of Life 3D 1.01.1</h1>
+<time>2021-01-16</time>
+<ul>
+	<li>Fixed: Copy save string was not working</li>
+	<li>Fixed: When opening a searched pattern the correct rules, world size and other options will be set</li>
+	<li>Fixed: Simulation running much slower due to the wrap around option</li>
+	<li>Fixed: Searcher not working in Internet Explorer</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2021-01-16/game-of-life-3d-1.01.1" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Game of Life 3D 1.01</h1>
+<time>2021-01-15</time>
+<ul>
+	<li>Added: A new much faster rendering method which can be enabled by setting <i>Simulation, Rendering: Fast</i></li>
+	<li>Added: Quicksaving(Shortcut key: K) and quickloading(Shortcut key: L)</li>
+	<li>Added: Shareable save strings</li>
+	<li>Added: Soup searching tool which can be used to find new patterns</li>
+	<li>Added: Option to have walls wrap around or block</li>
+	<li>Added: Press Space or P to temorarily pause the simulation</li>
+	<br>
+	<li>Fixed: The application could freeze if the user switched tabs</li>
+	<li>Fixed: Memory leaks when changing size</li>
+	<br>
+	<li>Added: New rule presets</li>
+	<ul>
+		<li>6855: A ruleset that seems to be stable when the density is higher than 15% but fades to nothing otherwise</li>
+		<li>4526: An infinitely expanding ruleset growing crystal-like structures</li>
+		<li>4544: Another rapidly infinitely expanding ruleset</li>
+	</ul>
+	<br>
+	<li>Added: A lot of new examples</li>
+	<ul>
+		<li>New scenes</li>
+		<ul>
+			<li>6855 fading from 15% randomness</li>
+			<li>4526 crystal growing</li>
+			<li>4544 star growing</li>
+			<li>2333 flat 2D conway game of life</li>
+		</ul>
+		<br>
+
+		<li>Spaceships (5766 ruleset)</li>
+		<ul>
+			<li>Bays's Glider</li>
+		</ul>
+
+		<li>Oscillators (5766 ruleset)</li>
+		<ul>
+			<li>Wheel</li>
+			<li>Skier</li>
+			<li>Burning ball</li>
+			<li>Active loaf</li>
+			<li>Heartbeat</li>
+			<li>Rocket</li>
+		</ul>
+
+		<li>Still life (5766 ruleset)</li>
+		<ul>
+			<li>Star</li>
+			<li>Spikes</li>
+			<li>Bucket</li>
+			<li>Big bucket</li>
+			<li>Beehive door</li>
+			<li>Beehive on boat</li>
+			<li>Bent tub</li>
+		</ul>
+
+		<br>
+
+		<li>Spaceships (4555 ruleset)</li>
+		<ul>
+			<li>Couch glider</li>
+			<li>Jellyfish</li>
+			<li>Jellyfish elevator</li>
+		</ul>
+
+		<li>Oscillators (4555 ruleset)</li>
+		<ul>
+			<li>Hollow rocket</li>
+			<li>Runner</li>
+			<li>Small wheel</li>
+			<li>Roller</li>
+			<li>Jumper</li>
+			<li>Spinner</li>
+			<li>Rave</li>
+		</ul>
+
+		<li>Still life (4555 ruleset)</li>
+		<ul>
+			<li>Broken block</li>
+			<li>L-Block</li>
+			<li>Hollow star</li>
+			<li>Tub 2</li>
+			<li>Diagonal block</li>
+			<li>Inverse star</li>
+			<li>Shell</li>
+			<li>Pond 2</li>
+		</ul>
+	</ul>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2021-01-15/game-of-life-3d-1.01" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Snakes without Brakes</h1>
+<time>2020-08-16</time>
+<p>A snake puzzle game developed for the <a href="https://itch.io/jam/lowrezjam-2020">2020 LOWREZJAM</a>.</p>
+<a href="/updates/media/2020-08-16.png"><img loading="lazy" src="/updates/media/2020-08-16.png" alt="Snakes without Brakes screenshot"></a>
+</section><footer><a class="underline-button" href="/updates/2020-08-16/snakes-without-brakes" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Krossa 1.02.5</h1>
+<time>2020-06-24</time>
+<ul>
+  <li>Tweaked: Antialiasing is now always enabled. This disables OVR_multiview2 which was not working properly on Oculus Quest</li>
+  <li>Tweaked: Updated Three.js to r117</li>
+  <li>Optimized: Better render order to allow for more early Z-testing</li>
+  <li>Fixed: Probably fixed black screen on Oculus Quest</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2020-06-24/krossa-1.02.5" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Planets by Earth 1.00.1</h1>
+<time>2020-06-23</time>
+<ul>
+  <li>Tweaked: Lowered music and ambient volume</li>
+  <li>Optimized: Better render order to allow for more early Z-testing</li>
+  <li>Fixed: Smaller fallback textures in case higher resolution textures are not supported to avoid textures failing to load</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2020-06-23/planets-by-earth-1.00.1" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Big Bubbles 1.04.1</h1>
+<time>2020-05-26</time>
+<ul>
+  <li>Tweaked: The distance from the mouse to the center now affects the speed</li>
+  <li>Tweaked: The distance from the touch point to the center now affects the speed</li>
+  <li>Tweaked: "Press R to restart" changed to "Press R / CLICK to restart"</li>
+  <br>
+  <li>Fixed: Could zoom with scroll wheel before game had loaded</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2020-05-26/big-bubbles-1.04.1" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Big Bubbles 1.04</h1>
+<time>2020-05-25</time>
+<a href="/updates/media/2020-05-25.jpg"><img loading="lazy" src="/updates/media/2020-05-25.jpg" alt="Big Bubbles 1.04 screenshot"></a>
+<ul>
+  <li>Added: Music</li>
+  <li>Added: Mouse controls</li>
+  <li>Added: Touch controls</li>
+  <li>Added: Gamepad controls</li>
+  <br>
+  <li>Tweaked: Checkpoints every 5 levels from which you will restart if you lose</li>
+  <li>Tweaked: More responsive player movement</li>
+  <br>
+  <li>Optimized: Better culling of bubbles</li>
+  <li>Optimized: Hide bubble level numbers if they are too small on the screen</li>
+  <li>Optimized: Cache and reuse color gradients for bubbles</li>
+  <br>
+  <li>Fixed: Workaround for <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1012194">a Chromium bug</a> causing the game to use CPU Compositing and running super slowly</li>
+  <li>Fixed: The player could sometimes move before the game had started</li>
+  <li>Fixed: Game title would sometimes be too wide on small screens</li>
+  <li>Fixed: Disabled page zooming on mobile</li>
+  <li>Fixed: Zooming out in the beginning on small screens</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2020-05-25/big-bubbles-1.04" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Planets by Earth [VR]</h1>
+<time>2020-04-28</time>
+<p>What if the Moon was replaced by planets in the Solar System?</p>
+<p><i>Planets by Earth</i> is a short VR experience built with <a href="https://aframe.io/">A-Frame</a> showing what the night sky would look like if we replaced the Moon with planets in the Solar System.</p>
+<p>The experience is built to be viewed in VR but can also be viewed without a VR-headset.</p>
+<a href="/updates/media/2020-04-28.jpg"><img loading="lazy" src="/updates/media/2020-04-28.jpg" alt="Planets by Earth screenshot"></a>
+</section><footer><a class="underline-button" href="/updates/2020-04-28/planets-by-earth" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>DustSim 1.01</h1>
+<time>2020-03-14</time>
+<a href="/updates/media/2020-03-14.jpg"><img loading="lazy" src="/updates/media/2020-03-14.jpg" alt="DustSim 1.01 screenshot"></a>
+<ul>
+	<li>Added: Particle colors</li>
+	<ul>
+		<li>Color depending on velocity</li>
+		<li>Custom particle colors</li>
+		<li>Color picker</li>
+	</ul>
+	<li>Added: New scenarios</li>
+	<ul>
+		<li>Encounter 2</li>
+		<li>Grid</li>
+		<li>Moon</li>
+		<li>Symmetry 2</li>
+		<li>Two moons</li>
+		<li>Two negative moons</li>
+	</ul>
+	<li>Added: Move view with left mouse button when no is tool selected</li>
+	<li>Added: Encounter as default scenario</li>
+	<li>Added: Scenario selection hover effect</li>
+	<li>Added: Navigate with 1,2,3,4 as keyboard shortcuts</li>
+	<br>
+	<li>Tweaked: Updated all scenario images to use the new colors</li>
+	<li>Tweaked: Moved speed slider from view to simulation settings</li>
+	<li>Tweaked: Updated Three.js to r114</li>
+	<li>Tweaked: Negative and positive attract each other rather than repell</li>
+	<li>Tweaked: Black scenario images rather than transparent while loading</li>
+	<br>
+	<li>Fixed: DustSim asking for permission to access VR in Firefox even though it is not a VR application</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2020-03-14/dustsim-1.01" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Krossa 1.02.4</h1>
+<time>2020-02-13</time>
+<ul>
+	<li>Added: Ammo.js WebAssembly (Disabled in FF due to performance problems)</li>
+	<li>Added: Lite mode for standalone headsets</li>
+	<ul>
+		<li>Disabled shadows</li>
+		<li>Disabled antialiasing</li>
+		<li>Two vases rather than four</li>
+		<li>Lower quality baseball bat</li>
+	</ul>
+	<br>
+	<li>Tweaked: Updated Ammo.js</li>
+	<li>Tweaked: Easier snap turning</li>
+	<br>
+	<li>Fixed: Vase hit haptics</li>
+	<li>Fixed: Cloud rendering on mobile hardware</li>
+	<li>Fixed: Depth buffer not being cleared properly</li>
+	<li>Fixed: Physics bugs if physics thread takes too long to initalize</li>
+	<li>Fixed: Error message in some browsers(OculusBrowser)</li>
+	<br>
+	<li>Optimized: Use WebGL2 and OVR_multiview2 if possible</li>
+	<li>Optimized: Switched from PCFSoft to PCF shadows</li>
+	<li>Optimized: Less triangles in title model</li>
+	<li>Optimized: Lower quality for generated text</li>
+	<li>Optimized: Texture mipmapping and anisotropy</li>
+	<li>Optimized: Materials</li>
+	<li>Optimized: Disabled stencil buffer</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2020-02-13/krossa-1.02.4" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Krossa 1.02.3</h1>
+<time>2020-02-08</time>
+<ul>
+	<li>Fixed: Haptic actuators error</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2020-02-08/krossa-1.02.3" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Krossa 1.02.2</h1>
+<time>2020-02-08</time>
+<ul>
+	<li>Tweaked: The website link is now clickable</li>
+	<li>Fixed: Spatial audio</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2020-02-08/krossa-1.02.2" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Krossa 1.02.1</h1>
+<time>2020-02-07</time>
+<ul>
+	<li>Tweaked: Ported to the newer WebXR API, still supports WebVR through a polyfill</li>
+	<li>Tweaked: Updated Three.js to r113</li>
+	<li>Tweaked: Vase breaking sound volume</li>
+	<li>Tweaked: Color of menu</li>
+	<li>Optimized: Use instancing for trees</li>
+	<li>Optimized: Communication between physics and main thread</li>
+	<li>Fixed: Memory leaks</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2020-02-07/krossa-1.02.1" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Game of Life 3D</h1>
+<time>2020-01-10</time>
+<p>A variation of <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a> in 3D, using GPU processing for realtime simulation.</p>
+<a href="/updates/media/2020-01-10.png"><img loading="lazy" src="/updates/media/2020-01-10.png" alt="Game of Life 3D screenshot"></a>
+</section><footer><a class="underline-button" href="/updates/2020-01-10/game-of-life-3d" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Shielder 1.05</h1>
+<time>2019-12-18</time>
+<ul>
+	<li>Added: Bronze, silver, gold and mastery medals which can be unlocked in each sector</li>
+	<li>Added: Medal unlock progress bar</li>
+	<li>Added: Total medals earned are now shown in place of the old level bar in the map selection screen</li>
+	<li>Added: Notifications which show when medals and sectors are unlocked</li>
+	<li>Added: After being hit by a laser the player will have one second of inviniciblity</li>
+	<li>Added: Player wreck</li>
+	<li>Added: Player health bar</li>
+	<li>Added: Boss health bar</li>
+	<li>Added: Indication in map selection on whether a boss has been defeated</li>
+	<li>Added: Number showing how many times a boss has been defeated</li>
+	<li>Added: Graphics settings screen</li>
+	<li>Added: Ability to quit from the pause menu</li>
+	<li>Added: Some preperations for the final boss</li>
+	<br>
+	<li>Tweaked: Maps are now unlocked with medals</li>
+	<li>Tweaked: Shield enemies burst fire</li>
+	<li>Tweaked: Better player shield image</li>
+	<li>Tweaked: Brighter colors for the blue player</li>
+	<li>Tweaked: Turned play and coop buttons into icon buttons</li>
+	<li>Tweaked: Shooting is now updated at a fixed timestep to get more accurate shooting at low framerates</li>
+	<li>Tweaked: Randomized boss positions a little bit</li>
+	<br>
+	<li>Fixed: The blue boss mega laser stopped doing damage too soon</li>
+	<li>Fixed: Coloring flickering due to floating-point inaccuracy</li>
+	<li>Fixed: Missing line break when multiple sectors were unlocked at the same time</li>
+	<li>Fixed: Trashcan icon missing if internet connection was lost before navigating to saves screen</li>
+	<br>
+	<li>Optimized: Map selection</li>
+	<li>Optimized: Post-processor by combining overlay filters into one</li>
+	<li>Optimized: Only update score UI when the score actually changed</li>
+	<br>
+	<li>Removed: Levels</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2019-12-18/shielder-1.05" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Shielder 1.04</h1>
+<time>2019-11-11</time>
+<ul>
+	<li>Added: Boss for the red section</li>
+	<li>Added: Boss for the green section</li>
+	<li>Added: Boss for the blue section</li>
+	<li>Added: Muzzle flashes for enemies</li>
+	<li>Added: New shooting sound for green drones</li>
+	<li>Added: New shooting sound for blue drone</li>
+	<li>Added: After battle enemy lights will be disabled</li>
+	<br>
+	<li>Tweaked: Better looking explosions</li>
+	<li>Tweaked: Bigger blue projectiles since they do more damage</li>
+	<li>Tweaked: Blue projectiles are now slower</li>
+	<li>Tweaked: Score notifications now look better when semi-transparent</li>
+	<li>Tweaked: Map selection back button now has an icon</li>
+	<br>
+	<li>Fixed: Colors would sometimes flash when changing color theme</li>
+	<li>Fixed: Shooting is now more consistent with low framerates</li>
+	<li>Fixed: The center of rotation of drones were wrong</li>
+	<li>Fixed: Slow motion post-processing effect was still present after quitting</li>
+	<br>
+	<li>Optimized: Post-processing effects</li>
+	<li>Optimized: Score notifications</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2019-11-11/shielder-1.04" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Shielder 1.03</h1>
+<time>2019-08-22</time>
+<ul>
+	<li>Added: The sectors are now divided into a red, green, blue and purple section with corresponding enemies</li>
+	<li>Added: Different colored force fields matching the section color</li>
+	<li>Added: The UI will change color depending on the section</li>
+	<li>Added: Post-processing color overlay for each section</li>
+	<li>Added: A lot of new sectors</li>
+	<li>Added: Sectors are now unlocked as the player progresses through the game</li>
+	<li>Added: Messages in the death screen will show when new sectors have been unlocked</li>
+	<li>Added: Camera shake when hit</li>
+	<li>Added: Pause by pressing P, space or the escape key</li>
+	<li>Added: The game will remember what sector was previously selected</li>
+	<li>Added: Pressing enter to play sector</li>
+	<br>
+	<li>Tweaked: Increased player movement speed</li>
+	<li>Tweaked: Increased knockback when reflecting lasers</li>
+	<li>Tweaked: Decreased knockback when hit by lasers</li>
+	<li>Tweaked: Death screen back button will return to sector selection instead of main menu</li>
+	<li>Tweaked: Made warnings easier to read</li>
+	<li>Tweaked: Added icons to more buttons</li>
+	<li>Tweaked: Icons now have a colored glow effect</li>
+	<br>
+	<li>Fixed: Score number formatting would break with scores higher than 1 000 000</li>
+	<li>Fixed: Limited player velocity and position to prevent rare cases of glitching out of the play area</li>
+	<br>
+	<li>Removed: Difficulty selection</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2019-08-22/shielder-1.03" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Shielder 1.02</h1>
+<time>2019-07-17</time>
+<ul>
+	<li>Added: Levels and XP</li>
+	<li>Added: Saving and save slots</li>
+	<li>Added: Sector 7</li>
+	<li>Added: Press the space bar or R to retry</li>
+	<li>Added: Press any gamepad button to retry</li>
+	<br>
+	<li>Tweaked: Redesigned main menu to use icons for buttons</li>
+	<li>Tweaked: Redesigned death screen UI to also use icon buttons</li>
+	<li>Tweaked: Score multiplier is no longer reset when hit</li>
+	<li>Tweaked: Increased score needed to increase multiplier to compensate for it no longer being reset after a hit</li>
+	<li>Tweaked: Increased the brightness of the slow motion filter</li>
+	<li>Tweaked: Increased the framerate of laser hit effects</li>
+	<li>Tweaked: Slightly bigger hit effects</li>
+	<li>Tweaked: Coop button moved from main menu to map selection</li>
+	<li>Tweaked: Scores will now have thousand separators</li>
+	<li>Tweaked: Arrow icons now have a subtle shadow</li>
+	<br>
+	<li>Optimized: Shadow are no longer generated for chunks outside of the viewport</li>
+	<br>
+	<li>Fixed: Minimized flashing of unstyled text</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2019-07-17/shielder-1.02" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>DustSim</h1>
+<time>2019-07-13</time>
+<p>Simulate millions of independent particles in realtime with this physics sandbox.</p>
+<a href="/updates/media/2019-07-13.jpg"><img loading="lazy" src="/updates/media/2019-07-13.jpg" alt="DustSim screenshot"></a>
+</section><footer><a class="underline-button" href="/updates/2019-07-13/dustsim" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Shielder 1.01</h1>
+<time>2019-05-19</time>
+<ul>
+	<li>Added: Map selection screen</li>
+	<li>Added: 5 new maps</li>
+	<li>Added: Options screen with SFX and music volume settings</li>
+	<li>Added: Post processing effect during slow motion</li>
+	<li>Added: Projectile interpolation</li>
+	<li>Added: Physics interpolation</li>
+	<li>Added: Glow effect for force fields</li>
+	<li>Added: Control movement with arrow keys</li>
+	<li>Added: If drones somehow manage to escape the play area they will be deleted</li>
+	<li>Added: Warning if WebAudio is unsupported</li>
+	<li>Added: Warning if WebStorage is unsupported</li>
+	<li>Added: Warning in the input selection screen if the Gamepad API is unsupported</li>
+	<li>Added: Sitelock warning</li>
+	<br>
+	<li>Tweaked: Decreased projectile damage</li>
+	<li>Tweaked: Better downscaling of player images</li>
+	<li>Tweaked: Lowered volume of click sound</li>
+	<li>Tweaked: Gamepad index will be shown in the input selection screen to differentiate between multiple of the same kind of controller</li>
+	<li>Tweaked: Changed "Keyboard & Mouse" to "Keyboard and Mouse"</li>
+	<li>Tweaked: Player spawn locations in multiplayer</li>
+	<br>
+	<li>Optimized: Less detailed physics models for enemies</li>
+	<li>Optimized: Drones outside of the viewport will not be drawn</li>
+	<li>Optimized: Disabled alpha channel for canvas</li>
+	<br>
+	<li>Fixed: Resume blocked audio context with user gestures</li>
+	<li>Fixed: Input selection UI overlapping on very small screens</li>
+	<li>Fixed: Keyboard input prevent default actions</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2019-05-19/shielder-1.01" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Krossa 1.02</h1>
+<time>2019-05-06</time>
+<ul>
+	<li>Added: Trees surrounding the play area</li>
+	<li>Added: Option to disable trees to improve performance</li>
+	<li>Added: Vases will not only cast shadows, but also recieve shadows on medium and high shadow quality settings</li>
+	<li>Added: Website and game version visible in VR menu</li>
+	<li>Added: Loading percentage shown inside of the loading spinner</li>
+	<li>Added: "Smash to start" can now be skipped with a button press</li>
+	<li>Added: Some support for WebXR</li>
+	<br>
+	<li>Tweaked: Doubled the shadow resolution for all shadow settings</li>
+	<li>Tweaked: The concrete floor is now a circle instead of a square</li>
+	<li>Tweaked: Slightly lowered the surrounding terrain</li>
+	<li>Tweaked: "Smash to start" will have a two second spawn delay to prevent starting by accident</li>
+	<li>Tweaked: Updated three.js to r99</li>
+	<br>
+	<li>Optimized: Physics simulation</li>
+	<li>Optimized: Fixed lag spikes when spawning and breaking vases</li>
+	<li>Optimized: Loading of models</li>
+	<br>
+	<li>Fixed: Controllers not remembering position when tracking lost</li>
+	<li>Fixed: Shadows of vase stands peter-panning</li>
+	<li>Fixed: Connecting and disconnecting VR displays should be handled better now</li>
+	<li>Fixed: Spawn animations of vases did not play completely</li>
+	<li>Fixed: Console log spam</li>
+	<br>
+	<li>Removed: Arrow showing forward direction</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2019-05-06/krossa-1.02" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Shielder</h1>
+<time>2019-05-03</time>
+<p>Defeat enemies in a laser bullet-hell using nothing but a reflective shield.</p>
+<a href="/updates/media/2019-05-03.jpg"><img loading="lazy" src="/updates/media/2019-05-03.jpg" alt="Shielder screenshot"></a>
+</section><footer><a class="underline-button" href="/updates/2019-05-03/shielder" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Big Bubbles 1.03</h1>
+<time>2019-03-31</time>
+<p>Big Bubbles is now available on <a href="https://www.kongregate.com/games/KodubGames/big-bubbles">Kongregate</a>!</p>
+<ul>
+	<li>Added: Background will darken on large scales</li>
+	<li>Added: Automatically zoom out when starting game</li>
+	<li>Added: Sound effect when leveling up</li>
+	<li>Added: Level number will pulse when leveling up</li>
+	<li>Added: Statistics will be shown while paused</li>
+	<li>Added: Press C to randomize color</li>
+	<li>Added: Better formatting for very big numbers</li>
+	<br>
+	<li>Tweaked: Automatically zoom in and out when the player size changes</li>
+	<li>Tweaked: Increased player movement speed</li>
+	<li>Tweaked: Changed "Bubbles eaten" to "Bubbles absorbed"</li>
+	<li>Tweaked: Leveling algorithm</li>
+	<li>Tweaked: Maximum and minimum zoom</li>
+	<li>Tweaked: Added a subtle glow to the loading spinner</li>
+	<br>
+	<li>Optimized: Bubbles outside of the viewport will not be drawn</li>
+	<br>
+	<li>Fixed: Pause text not being the same as the player color</li>
+	<li>Fixed: Game breaking when reaching levels higher than 1000</li>
+	<li>Fixed: Big level numbers being too big to fit on bubbles</li>
+	<li>Fixed: Being able to move before the game started</li>
+	<li>Fixed: Level-up target being slightly wrong</li>
+	<li>Fixed: Bubble levels having the wrong font while the correct font was loading</li>
+	<li>Fixed: Initial zoom sometimes being incorrect</li>
+	<li>Fixed: Rounding errors</li>
+	<li>Fixed: A tiny black border at the bottom of the screen</li>
+	<li>Fixed: Prevent cheating by having two instances of the game open</li>
+	<li>Fixed: Audio sounding weird in Firefox while absorbing bubbles</li>
+	<li>Fixed: Game not handling displays with different refresh rates correctly</li>
+	<li>Fixed: Game not handling displays with different pixel ratios correctly</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2019-03-31/big-bubbles-1.03" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Big Bubbles 1.02</h1>
+<time>2018-12-13</time>
+<ul>
+	<li>Added: Leveling system</li>
+	<li>Added: Display current level on bubbles</li>
+	<li>Added: Level progress bar</li>
+	<li>Added: Pausing</li>
+	<li>Added: Internet Explorer audio fallback for some sounds</li>
+	<br>
+	<li>Tweaked: Changed starting diameter to 200 picometers instead of 200 attometers</li>
+	<li>Tweaked: UI color will match player color</li>
+	<li>Tweaked: Balanced the size of spawned bubbles</li>
+	<li>Tweaked: Renamed incorrect radius to diameter</li>
+	<li>Tweaked: Thousand separation for numbers</li>
+	<li>Tweaked: Loading spinner position</li>
+	<br>
+	<li>Optimized: Use ogg and mp3 audio formats</li>
+	<br>
+	<li>Fixed: Bubbles looking different in Firefox due to the way gradients are rendered</li>
+	<li>Fixed: Some size units were incorrect</li>
+	<li>Fixed: Bug with drawing really small bubbles</li>
+	<li>Fixed: Time played will pause if pausing or switching tabs</li>
+	<li>Fixed: Error spam in console if saving was not supported</li>
+	<li>Fixed: Audio failing to load in Safari(1.01.1)</li>
+	<br>
+	<li>Removed: Removed centimeter unit</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2018-12-13/big-bubbles-1.02" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Storage Simulator 1.03</h1>
+<time>2018-11-18</time>
+<ul>
+	<li>Added: Shop</li>
+	<li>Added: Storage expansions</li>
+	<li>Added: Click on crates to display info</li>
+	<li>Added: Destroying crates in case you get stuck</li>
+	<li>Added: Show error if saving fails</li>
+	<br>
+	<li>Tweaked: Better menu background</li>
+	<li>Tweaked: UI will now have a subtle pattern instead of a solid color</li>
+	<li>Tweaked: Trucks will have more crates on average</li>
+	<li>Tweaked: Renamed packages to crates</li>
+	<li>Tweaked: Spaces as thousand separator instead of apostrophe</li>
+	<li>Tweaked: UI on small screens</li>
+	<br>
+	<li>Optimized: Replaced wav with ogg and mp3 audio formats</li>
+	<br>
+	<li>Fixed: Fading messages sometimes failed to play</li>
+	<li>Fixed: Audio failing to load in Safari</li>
+	<br>
+	<li>Removed: Free building</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2018-11-18/storage-simulator-1.03" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Krossa 1.01</h1>
+<time>2018-10-10</time>
+<ul>
+	<li>Added: Main menu</li>
+	<li>Added: Options menu</li>
+	<li>Added: Shadow quality option</li>
+	<li>Added: Return to menu with button press</li>
+	<li>Added: Snap turning</li>
+	<li>Added: Vase spawn sound</li>
+	<li>Added: Loading screen</li>
+	<li>Added: Arrow showing forward direction</li>
+	<br>
+	<li>Tweaked: Title 3D model</li>
+	<li>Tweaked: Improved shading of vases</li>
+	<li>Tweaked: Improved textures of concrete stands</li>
+	<li>Tweaked: Changed sun position to provide better lighting for the menu</li>
+	<br>
+	<li>Optimized: Load models asynchronously to prevent lag spikes</li>
+	<li>Optimized: Compressed textures to improve loading time</li>
+	<br>
+	<li>Fixed: Black textures while loading</li>
+	<li>Fixed: Disconnected controllers sometimes not disappearing</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2018-10-10/krossa-1.01" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>SimCity4 Terrain Generator</h1>
+<time>2018-09-30</time>
+<p>A tool for generating random SimCity4 regions.</p>
+<a href="/updates/media/2018-09-30.png"><img loading="lazy" src="/updates/media/2018-09-30.png" alt="SimCity4 Terrain Generator screenshot"></a>
+</section><footer><a class="underline-button" href="/updates/2018-09-30/simcity4-terrain-generator" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Glowets 1.02</h1>
+<time>2018-09-12</time>
+<ul>
+	<li>Added: Countdown before game start</li>
+	<li>Added: Forward time during countdown to randomize player positions</li>
+	<li>Added: Sound while forwarding time</li>
+	<li>Added: Game start sound when countdown finished</li>
+	<li>Added: Display keys on players</li>
+	<li>Added: Weapon animation while shooting</li>
+	<br>
+	<li>Tweaked: Better particles</li>
+	<li>Tweaked: Increased health to allow for longer games</li>
+	<li>Tweaked: Prevent players having too similiar colors</li>
+	<li>Tweaked: Every other orbit will be reversed</li>
+	<li>Tweaked: Orbits turn white after death</li>
+	<li>Tweaked: Optimized glow effects</li>
+	<li>Tweaked: Use ogg and mp3 for audio</li>
+	<br>
+	<li>Removed: Removed glow effects checkbox since the glow is much faster now</li>
+	<li>Removed: Disabled random planet size and distance to make the game more fair</li>
+	<li>Removed: Disabled some keys from being used</li>
+	<br>
+	<li>Fixed: Rocket tails disappearing after hit</li>
+	<li>Fixed: Some keys were displaying incorrect characters</li>
+	<li>Fixed: Players could control turret after game ended</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2018-09-12/glowets-1.02" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Krossa [VR]</h1>
+<time>2018-08-25</time>
+<p>Smash and shatter glass objects in virtual reality.</p>
+<p>Requires a <a href="https://webvr.info/">WebVR</a> compatible browser and a VR-headset with controllers.</p>
+<a href="/updates/media/2018-08-25.jpg"><img loading="lazy" src="/updates/media/2018-08-25.jpg" alt="Krossa screenshot"></a><a href="/updates/media/2018-08-25_2.jpg"><img loading="lazy" src="/updates/media/2018-08-25_2.jpg" alt="Krossa screenshot"></a>
+</section><footer><a class="underline-button" href="/updates/2018-08-25/krossa-vr" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Zpaco update 1.01</h1>
+<time>2018-06-12</time>
+<ul>
+	<li>Added combat</li>
+	<li>Added lasers</li>
+	<li>Added AI ships</li>
+	<li>Added ship health</li>
+	<li>Added health bar</li>
+	<li>Added civilizations</li>
+	<li>Added political map view</li>
+	<li>Added wars between civilizations</li>
+	<li>Added pirates</li>
+	<li>Added money</li>
+	<li>Added shop for repairing</li>
+	<li>Added boosting when reaching 1000m/s</li>
+	<li>Added random galaxy looseness</li>
+	<li>Added info showing preview image</li>
+	<li>Added clicking on ships displaying info</li>
+	<li>Added loading screen</li>
+	<li>Added displaying progress during generation</li>
+	<li>Added ability to close dialogs with escape key</li>
+	<li>Added unit to atmosphere density</li>
+	<li>Added warning for unsupported browser features</li>
+	<li>Added version number</li>
+	<li>Tweaked planet sizes to create bigger planets</li>
+	<li>Tweaked star radius variation</li>
+	<li>Tweaked planet rotation speed</li>
+	<li>Tweaked speedometer to use fixed width numbers</li>
+	<li>Tweaked black border around planets</li>
+	<li>Optimized drawing stars</li>
+	<li>Optimized galaxy generation</li>
+	<li>Fixed title font not working in some browsers</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2018-06-12/zpaco-update-1.01" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Storage Simulator update 1.02</h1>
+<time>2018-01-27</time>
+<ul>
+	<li>Added saving and loading</li>
+	<li>Added storage editing</li>
+	<li>Added multiple truck colors</li>
+	<li>Added new package aging textures with random variations</li>
+	<li>Added ghosts of requested packages</li>
+	<li>Added new outside floor</li>
+	<li>Added ambient occlusion outline effect</li>
+	<li>Added showing earnings/loses</li>
+	<li>Added new statistics: money earned, money spent, player moves, package moves</li>
+	<li>Added confirmation dialog before quitting</li>
+	<li>Added culling optimization</li>
+	<li>Tweaked the starting area to be smaller</li>
+	<li>Tweaked list of requested packages to show package type</li>
+	<li>Tweaked grass texture</li>
+	<li>Tweaked maximum used floor space from 75% to 60%</li>
+	<li>Tweaked statistics UI</li>
+	<li>Tweaked options UI</li>
+	<li>Tweaked menu title on small screens</li>
+	<li>Removed player quality option</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2018-01-27/storage-simulator-update-1.02" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Zpaco</h1>
+<time>2018-01-09</time>
+<p>Explore huge procedurally generated galaxies.</p>
+<a href="/updates/media/2018-01-09.png"><img loading="lazy" src="/updates/media/2018-01-09.png" alt="Zpaco screenshot"></a>
+<a href="/updates/media/2018-01-09_2.png"><img loading="lazy" src="/updates/media/2018-01-09_2.png" alt="Zpaco screenshot"></a>
+</section><footer><a class="underline-button" href="/updates/2018-01-09/zpaco" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Big Bubbles 1.01</h1>
+<time>2017-12-19</time>
+<ul>
+	<li>Added: Animated background</li>
+	<li>Added: Saving - Current game will automatically save</li>
+	<li>Added: Collision sounds for player</li>
+	<li>Added: Show info on death - size, bubbles absorbed, game time</li>
+	<li>Added: Added version number</li>
+	<li>Tweaked: Better ambient underwater sound</li>
+	<li>Tweaked: Increased player movement speed</li>
+	<li>Tweaked: Game will pause after restart</li>
+	<li>Tweaked: Show instructions again after restart</li>
+	<li>Tweaked: Disabled zooming while dead</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2017-12-19/big-bubbles-1.01" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Big Bubbles</h1>
+<time>2017-08-01</time>
+<p>Absorb smaller bubbles to grow from infinitely small to infinitely large.</p>
+<a href="/updates/media/2017-08-01.jpg"><img loading="lazy" src="/updates/media/2017-08-01.jpg" alt="Big Bubbles screenshot"></a>
+</section><footer><a class="underline-button" href="/updates/2017-08-01/big-bubbles" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Storage Simulator update 1.01</h1>
+<time>2017-04-12</time>
+<ul>
+	<li>Added statistics window</li>
+	<li>Added list of requested packages</li>
+	<li>Added loading screen</li>
+	<li>Added ability to change options during a game</li>
+	<li>Added truck package drop and take sounds</li>
+	<li>Added truck package drop and take delay</li>
+	<li>Tweaked footstep volume</li>
+	<li>Tweaked automatic package releasing</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2017-04-12/storage-simulator-update-1.01" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article><article><section><h1>Glowets update 1.01</h1>
+<time>2017-04-12</time>
+<ul>
+	<li>Added glow graphics option</li>
+	<li>Added game logo</li>
+	<li>Added click sound</li>
+	<li>Added version number</li>
+	<li>Tweaked sound and music volume</li>
+	<li>Fixed scrollbars sometimes being shown</li>
+	<li>Fixed page title (1.01.1)</li>
+</ul>
+</section><footer><a class="underline-button" href="/updates/2017-04-12/glowets-update-1.01" rel="bookmark"><img src="/svg/permalink.svg" alt=""><span>Permalink</span></a></footer></article>		</main>
+
+		<div id="footer-padding"></div>
+<footer>
+	<span>Copyright &copy; 2026</span> <span>kodub.com</span> <span>All Rights Reserved</span>
+</footer>
+	</body>
+</html>
