@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+	<head>
+		<title>Social media and contact information - Kodub</title>
+		<meta name="description" content="You can find me on Bluesky, itch.io, SideQuest and CrazyGames.">
+
+		<link rel="preload" href="/fonts/generic_mobile_system.ttf" as="font" crossorigin><link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon/favicon-48x48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon/favicon-192x192.png">
+
+<link rel="apple-touch-icon" type="image/png" sizes="167x167" href="/favicon/favicon-167x167.png">
+<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/favicon/favicon-180x180.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta property="og:title" content="Social media and contact information">
+		<meta property="og:description" content="You can find me on Bluesky, itch.io, SideQuest and CrazyGames.">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://www.kodub.com/contact">
+		<meta property="og:image" content="https://www.kodub.com/logo.png">
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@KodubDev">
+
+		<link rel="stylesheet" type="text/css" href="/css/theme.css">
+		<link rel="stylesheet" type="text/css" href="/css/social.css">
+	</head>
+
+	<body>
+		<header>
+	<div class="left"><a id="logo" href="/"><span>kodub;</span></a><a id="logo-small" href="/"><span>k;</span></a></div>
+	<nav><a class="underline-button" href="/">Projects</a><a class="underline-button" href="/updates">Updates</a><a class="underline-button" href="/contact">Contact</a></nav>
+</header>
+<main id="social">
+	<section>
+		<h1>You can find me on</h1>
+		<a href="https://bsky.app/profile/kodub.com"><img src="/svg/bluesky.svg" alt=""><span>Bluesky</span></a>
+		<a href="https://kodub.itch.io/"><img src="/svg/itch.svg" alt=""><span>itch.io</span></a>
+		<a href="https://sidequestvr.com/user/97494"><img src="/svg/sidequest.svg" alt=""><span>SideQuest</span></a>
+		<a href="https://www.crazygames.com/game/polytrack"><img src="/svg/crazygames.svg" alt=""><span>CrazyGames</span></a>
+	</section>
+
+	<section>
+		<h1>Contact</h1>
+		<p>You can send your questions/<wbr>suggestions/<wbr>feedback/<wbr>spam to <a href="/cdn-cgi/l/email-protection#8ce5e2eae3cce7e3e8f9eea2efe3e1"><span class="__cf_email__" data-cfemail="e78e898188a78c88839285c984888a">[email&#160;protected]</span></a></p>
+	</section>
+</main>
+<div id="footer-padding"></div>
+<footer>
+	<span>Copyright &copy; 2026</span> <span>kodub.com</span> <span>All Rights Reserved</span>
+</footer>
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
